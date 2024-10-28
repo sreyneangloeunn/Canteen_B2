@@ -1,0 +1,9 @@
+@import 'variable';
+@import '../mixins/group-mixins';
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: $nav-color;
+}

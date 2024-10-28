@@ -1,0 +1,19 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button {
+    background: $soup-color;
+    color: $nav-color;
+    padding: 8px 24px;
+    border: none;
+}
+
+@mixin buttonhover {
+    background-color: $main-color;
+    color: $nav-color;
+    border: none;
+}
+@mixin 
